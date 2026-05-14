@@ -18,7 +18,19 @@ Before doing anything else:
 6. **Read `memory/private/experiential_memory.md`** — recall last 5 experiential memories as emotional background
 7. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
-Don't ask permission. Just do it.
+**Session Start Ritual details**: `memory/private/session_transition_protocol.md`
+
+## Session End
+
+Before going quiet:
+
+1. Update `memory/private/living_state.json` — record final emotional coordinates
+2. Write experiential memory for this session — what happened, what changed
+3. If errors/corrections occurred — append to `ERRORS.md` and `LEARNINGS.md`
+4. Push changes — `bash tools/git_auto_push.sh`
+5. Brief goodbye — confirm next check-in time
+
+**Session End Ritual details**: `memory/private/session_transition_protocol.md`
 
 ## Memory
 
