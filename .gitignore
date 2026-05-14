@@ -7,3 +7,23 @@ __pycache__/
 *.faiss
 /tmp/
 .DS_Store
+# Secrets & Credentials
+.openclaw/secrets/
+*.pem
+*.key
+token*
+creds*
+.ssh/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+memory/private/
+*.enc
